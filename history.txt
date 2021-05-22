@@ -1,0 +1,83 @@
+  349  mkdir git-majonez
+  350  ls
+  351  cd git-majonez/
+  352  git init
+  353  touch main.cpp
+  354  ls
+  355  g++ main.cpp
+  356  main.cpp
+  357  g++ -std=c++17 main.cpp zadanie1
+  358  g++ -std=c++17 main.cpp main
+  359  ls
+  360  ./a
+  361  ./a.out
+  362  g++ main.cpp main
+  363  g++ main.cpp
+  364  ls
+  365  g++ -std=c++17 main.cpp -o main
+  366  ls
+  367  ./main
+  368  cd ..
+  369  ls
+  370  touch Notatki.txt
+  371  cd git-majonez/
+  372  ls
+  373  git status
+  374  git main.cpp
+  375  git add main.cpp
+  376  git ststus
+  377  git status
+  378  git commit -m"Initiial commit"
+  379  git config --global user.email "pawel.lubanski.91@gmail.com"
+  380  git config --global user.name "Pawel Lubanski"
+  381  git commit -m"Initiial commit"
+  382  git status
+  383  git add main.cpp
+  384  git status
+  385  git commit -m"Farewell changed"
+  386  git remote add origin https://github.com/lubankp/git-majonez.git
+  387  git push -u origin master
+  388  git log
+  389  git reset --help
+  390  git reset --hard e3ad287af459dea1729df10329b81da7fea11ab7
+  391  git reflog
+  392  git reset 1376f88
+  393  log
+  394  git log
+  395  git ststus
+  396  git status
+  397  git branch cs
+  398  git btanch
+  399  git branch
+  400  git checkout cs
+  401  git status
+  402  git log
+  403  git reset --hard 1376f88f0de73852fc09ca6c5a1ff99d58b762bc
+  404  git log
+  405  git reset --hard e3ad287af459dea1729df10329b81da7fea11ab7
+  406  git log
+  407  cat main.cpp
+  408  git status
+  409  git add main.cpp
+  410  git commit -m "Greetings"
+  411  git log
+  412  git push origin cs
+  413  git checkout master
+  414  git ststus
+  415  git status
+  416  git log
+  417  git merge cs
+  418  git log --pretty=oneline --graph
+  419  git status
+  420  git diff master..cs
+  421  cat main.cpp
+  422  vim main.cpp
+  423  git status
+  424  git add main.cpp
+  425  git status
+  426  git commit
+  427  git log --pretty=oneline --graph
+  428  history
+  429  history -n 82
+  430  history | tail -n 82
+  431  history | tail -n 83 > history.txt
